@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+*{font-family: 'Ubuntu', sans-serif;
+padding: 0;
+margin: 0;}
+
+body{background-image: 
+url(Pic/Background3blur.jpg);
+background-size: cover;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;}
+header img{width: 50px; height: 50px;border-radius: 50%;align-content: left;}
+.container h1{color: white; }
+.container{background-image: 
+    url(pic/Background.jpg);
+    background-position: 2px ;
+width: 90%;
+height: 640px;}
+h1{background-color: rgb(0, 0, 0);}
+header a{color: rgb(228, 213, 213); text-decoration: none; }
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{font-size: 30px;
+text-transform: uppercase;}
+ul{
+    font-size: 25px;
+    width: 60%;
+list-style: none;
+display: flex;
+justify-content: space-evenly;}
+ul a{border-bottom: 2px solid transparent; background-color: rgba(14, 14, 14, 0.181); border-radius: 3px; transition: 0.4s;}
+
+ul a:hover{border-bottom-color: red;background-color: transparent;font-size: 35px;}
+.content{background-color: rgba(255, 0, 0, 0.423);
+width: 50%;
+margin-top: 50px;
+padding: 30px;}
+
+.content h2{font-size: 100px;}
+.container p{letter-spacing: 2px;
+    font-family: sans-serif;
+width: 350px;
+padding: 20px 0;
+border: 2px solid transparent;}
+.content a{
+background-color: #dbc9bf55;
+text-decoration: none;
+color: black;
+font-size: 30px;
+padding: 6px 10px;
+}
+.content a:hover{
+background-color: transparent;
+background-color: #2b1f18;transition: 0.5s;
+border-radius: 2px;
+color: white;}
+.content p a{padding: 3px;
+margin: 1px; font-size: 25px;
+text-decoration: underline;
+}
+.photos h1{text-align: center;font-size: 35px;}
+.photos h3{color: white;}
+.photos h4{font-style: italic; color: white; font-size: large;}
+.photos img{height: 300px;transition: 1.5s;}
+.content p{font-size: 20px;}
+.photos img:hover{height: 330px; }
+.content p{font-size: 25px;}
+
+/* Three columns side by side */
+.column {
+    float: left;
+    width: 32%;
+    margin-bottom: 16px;
+    padding: 0 4px;
+  }
+  
+  /* Display the columns below each other instead of side by side on small screens */
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  /* Add some shadows to create a card effect */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-image: url(Pic/Background4.jpg);
+    background-position: top;
+  }
+  
+  /* Some left and right padding inside the container */
+  .container {
+    padding: 0 16px;
+  }
+  .row h2{color: white;}
+  
+  /* Clear floats */
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: rgb(255, 255, 255);
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #750709;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.4s;
+  }
+  
+  .button:hover {
+    background-color: #7507097e;
+  }
+  .row img{width: 400px;height: 350px; }
+  #coaches{text-align: center;color: white}
+  .row p{color: white;
+background-color: #555555df;}
+.container{height: 450px;}
+.content h3{color: white;background-color: rgba(0, 0, 0, 0.775);}
